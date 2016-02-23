@@ -1,0 +1,15 @@
+container {
+  text-align: center;
+}
+
+.search {
+  margin: 5rem auto;
+}
+
+input {
+  font-size: 1.75rem;
+}
+
+button {
+  margin: 1rem;
+}
