@@ -1,0 +1,15 @@
+<div class="movieBox" ng-repeat="showMovie in showMovies">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3">
+    <img src="{{showMovie.Poster}}" class="moviePoster">
+  </div>
+  <div class="col-sm-3">
+    <h3>{{showMovie.Title}}</h3>
+    <p>{{showMovie.Year}} &#8226; {{showMovie.Rated}} &#8226; IMDB Rating: {{showMovie.imdbRating}}</p>
+    <p>{{showMovie.Plot}}</p>
+    <br>
+    <p><em>Director: {{showMovie.Director}}</p>
+    <p>Actors: {{showMovie.Actors}}</em></p>
+  </div>
+  <div class="col-sm-3"></div>
+</div>
