@@ -10,5 +10,5 @@ app.config(function($routeProvider) {
       .when('/:movieID', {
         templateUrl: 'partials/movie.html',
         controller: 'showController'
-      })
+    })
 });

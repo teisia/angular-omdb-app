@@ -13,6 +13,16 @@
     </header>
     <main>
       <container>
+        <h1>Angular OMDb API Search</h1>
+        <div class="search">
+          <h4>Enter a movie by title.</h4>
+          <form ng-submit="getMovie()">
+            <input ng-model="movieTitle" type="text">
+            <br>
+            <button ng-click="showMovieList=true" class="btn btn-info">Search
+              <span class="glyphicon glyphicon-menu-right"></span>
+          </button>
+          </form>
         <div ng-view></div>
       </container>
     </main>
